@@ -6,6 +6,10 @@ colorTo: blue
 sdk: docker
 pinned: false
 app_port: 8000
+compute:
+  requested:
+    type: cpu-basic
+    replicas: 1
 ---
 
 # 最简单的方法：一键部署
