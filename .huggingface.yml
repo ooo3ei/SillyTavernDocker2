@@ -1,0 +1,6 @@
+sdk: docker
+app_port: 8000
+compute:
+  requested:
+    type: cpu-basic
+    replicas: 1
