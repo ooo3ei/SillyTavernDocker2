@@ -64,7 +64,7 @@ backups:
     maxTotalBackups: -1
     throttleInterval: 10000
 thumbnails:
-  enabled: true
+  enabled: false
   format: "jpg"
   quality: 95
   dimensions: { 'bg': [160, 90], 'avatar': [96, 144] }
