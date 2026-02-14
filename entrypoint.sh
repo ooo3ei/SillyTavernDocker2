@@ -69,7 +69,7 @@ thumbnails:
   quality: 95
   dimensions: { 'bg': [160, 90], 'avatar': [96, 144] }
 performance:
-  lazyLoadCharacters: false
+  lazyLoadCharacters: true
   memoryCacheCapacity: '100mb'
   useDiskCache: true
 allowKeysExposure: true
