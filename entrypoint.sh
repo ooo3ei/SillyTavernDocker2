@@ -29,12 +29,11 @@ enableForwardedWhitelist: false
 whitelist:
   - ::1
   - 127.0.0.1
+  - 099076h-nooo.hf.space
+  - eighhh-again.hf.space
 whitelistDockerHosts: true
 hostWhitelist:
-  enabled: true
-  hosts:
-    - 099076h-nooo.hf.space
-  scan: true
+  enabled: false
 basicAuthMode: true
 basicAuthUser:
   username: "${USERNAME}"
