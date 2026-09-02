@@ -113,7 +113,8 @@ claude:
 enableServerPlugins: true
 enableServerPluginsAutoUpdate: false
 EOT
-
+echo "--- Checking hostWhitelist in generated config ---"
+grep -A5 "hostWhitelist:" "${CONFIG_FILE}" || echo "ERROR: hostWhitelist NOT FOUND"
 # Priority 2: Use CONFIG_YAML if provided (and username/password are not)
 elif [ -n "${CONFIG_YAML}" ]; then
   echo "--- Found CONFIG_YAML, creating config.yaml from environment variable. ---"
