@@ -30,6 +30,11 @@ whitelist:
   - ::1
   - 127.0.0.1
 whitelistDockerHosts: true
+hostWhitelist:
+  enabled: true
+  hosts:
+    - 099076h-nooo.hf.space
+  scan: true
 basicAuthMode: true
 basicAuthUser:
   username: "${USERNAME}"
