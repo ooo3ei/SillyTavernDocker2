@@ -233,7 +233,7 @@ echo "SillyTavern server started with PID ${SERVER_PID}. Waiting for it to becom
 
 # --- Health Check Logic ---
 HEALTH_CHECK_URL="http://localhost:8000/"
-CURL_COMMAND="curl -sf"
+CURL_COMMAND="curl -s"
 
 # If basic auth is enabled, provide credentials to curl for health checks
 if [ -n "${USERNAME}" ] && [ -n "${PASSWORD}" ]; then
